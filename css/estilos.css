@@ -43,6 +43,14 @@ header {
    color: #003366;
 }
 
+.menu-opcoes a:hover {
+  color: #007dc6;
+}
+
+.menu-opcoes a:active {
+  color: #867dc6;
+}
+
 .busca, 
 .menu-departamentos {
   background-color: #dcdcdc;
@@ -73,6 +81,22 @@ header {
 .menu-departamentos a {
   color: #333333;
   text-decoration: none;
+}
+
+.menu-departamentos li ul {
+  display: none;
+}
+
+.menu-departamentos li:hover ul {
+  display: block;
+}
+
+.menu-departamentos ul ul li {
+  background-color: #dcdcdc;
+}
+
+.menu-departamentos li li a:before {
+  content: '- ';
 }
 
 .busca input {
