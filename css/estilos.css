@@ -3,6 +3,12 @@ body {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
+@media (min--moz-device-pixel-ratio:0) {
+  fieldset {
+    display: table-column;
+  }
+}
+
 .container {
   margin: 0 auto;
   width: 940px;
