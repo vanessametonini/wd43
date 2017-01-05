@@ -1,15 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Mirror Fashion</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/estilos.css">
-  <link rel="stylesheet" href="css/mobile.css" media="(max-width: 939px)">
-</head>
-<body>
-  <?php include("cabecalho.php"); ?>
+<?php $cabecalho_title = "Mirror Fashion"; ?>
+<?php include("cabecalho.php"); ?>
   <div class="container destaque">
     <section class="busca">
       <h2>Busca</h2>

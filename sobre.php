@@ -1,14 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Sobre a Mirror Fashion</title>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/estilos.css">
-  <link rel="stylesheet" href="css/sobre.css">
-</head>
-<body>
-    <?php include("cabecalho.php"); ?>
+<?php $cabecalho_title = "Sobre a Mirror Fashion";?>
+<?php $cabecalho_css = '<link rel="stylesheet" href="css/sobre.css">'; ?>
+<?php include("cabecalho.php"); ?>
     <article class="container">
         <section>
             <h1 class="titulo">A Mirror Fashion</h1>
