@@ -5,6 +5,11 @@
     <title>Checkout Mirror Fashion</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <meta name="viewport" content="width=device-width">
+    <style>
+        .form-control:invalid {
+            border: 1px solid #cc0000;
+        }
+    </style>
 </head>
 <body>
     <div class="jumbotron">
@@ -42,7 +47,7 @@
 
                 <div class="form-group">
                     <label for="nome">Nome completo</label>
-                    <input type="text" class="form-control" id="nome" name="nome" autofocus>
+                    <input type="text" class="form-control" id="nome" name="nome" autofocus required >
                 </div>
 
                 <div class="form-group">
@@ -53,10 +58,10 @@
                         <input type="email" class="form-control" id="email" name="email" placeholder="email@exemplo.com"> 
                     </div>
                 </div>
-                
+
                 <div class="form-group">
                     <label for="cpf">CPF</label>
-                    <input type="text" class="form-control" id="cpf" name="cpf" placeholder="000.000.000-00">
+                    <input type="text" class="form-control" id="cpf" name="cpf" placeholder="000.000.000-00" required>
                 </div>
 
                 <div class="checkbox">
@@ -99,5 +104,18 @@
             </button>
         </form>
     </div>
+
+    <script type="text/javascript">
+        document.querySelector('input[type=email]').oninvalid = function() {
+            // remove mensagens de erro antigas
+            this.setCustomValidity("");
+
+            // reexecuta validação
+            if (!this.validity.valid) {
+                // se inválido, coloca mensagem de erro
+                this.setCustomValidity("Email inválido");
+            }
+        };
+    </script>
 </body>
 </html>
