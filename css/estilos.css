@@ -99,6 +99,17 @@ header {
   content: '- ';
 }
 
+.menu-departamentos li li a:before {
+  content: '\272A';
+  padding-right: 3px;
+}
+
+.painel h2:before {
+  content: '\2756';
+  padding-right: 5px;
+  opacity: 0.4;
+}
+
 .busca input {
   vertical-align: middle;
 }
