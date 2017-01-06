@@ -33,6 +33,7 @@
     </section><!-- fim .menu-departamentos -->
 
     <img src="img/destaque-home.png" alt="Promoção: Big City Night">
+    <a href="#" class="pause"></a>
   </div><!-- fim .container .destaque -->
   <div class="container paineis">
     <section class="painel novidades">
@@ -143,5 +144,30 @@
       </section>
   </div>
   <?php include("rodape.php"); ?>
+
+<script type="text/javascript">
+  var banners = ["img/destaque-home.png", "img/destaque-home-2.png"];
+  var bannerAtual = 0;
+
+  function trocaBanner() {
+    bannerAtual = (bannerAtual + 1) % 2;
+    document.querySelector('.destaque img').src = banners[bannerAtual];
+  }
+
+  var timer = setInterval(trocaBanner, 4000);
+  var controle = document.querySelector('.pause');
+
+  controle.onclick = function() {
+    if (controle.className == 'pause') {
+      clearInterval(timer);
+      controle.className = 'play';
+    } else {
+      timer = setInterval(trocaBanner, 4000);
+      controle.className = 'pause';
+    }
+
+    return false;
+  };
+</script>
 </body>
 </html>
