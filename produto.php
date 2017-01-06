@@ -77,6 +77,7 @@
     </div>
 </div>
 <?php include("rodape.php"); ?>
+<script src="js/jquery.js" type="text/javascript"></script>
 <script src="js/produto.js" type="text/javascript"></script>
 </body>
 </html>
