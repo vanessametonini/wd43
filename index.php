@@ -50,7 +50,7 @@
           <li>
             <a href="produto.php">
               <figure>
-                <img src="img/produtos/miniatura1.png">
+                <img src="img/produtos/miniatura2.png">
                 <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
               </figure>
             </a>
@@ -58,7 +58,7 @@
           <li>
             <a href="produto.php">
               <figure>
-                <img src="img/produtos/miniatura1.png">
+                <img src="img/produtos/miniatura3.png">
                 <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
               </figure>
             </a>
@@ -66,7 +66,7 @@
           <li>
             <a href="produto.php">
               <figure>
-                <img src="img/produtos/miniatura1.png">
+                <img src="img/produtos/miniatura4.png">
                 <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
               </figure>
             </a>
@@ -74,7 +74,7 @@
           <li>
             <a href="produto.php">
               <figure>
-                <img src="img/produtos/miniatura1.png">
+                <img src="img/produtos/miniatura5.png">
                 <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
               </figure>
             </a>
@@ -82,20 +82,69 @@
           <li>
             <a href="produto.php">
               <figure>
-                <img src="img/produtos/miniatura1.png">
+                <img src="img/produtos/miniatura6.png">
+                <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="produto.php">
+              <figure>
+                <img src="img/produtos/miniatura7.png">
+                <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="produto.php">
+              <figure>
+                <img src="img/produtos/miniatura8.png">
+                <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="produto.php">
+              <figure>
+                <img src="img/produtos/miniatura9.png">
+                <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="produto.php">
+              <figure>
+                <img src="img/produtos/miniatura10.png">
+                <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="produto.php">
+              <figure>
+                <img src="img/produtos/miniatura11.png">
+                <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="produto.php">
+              <figure>
+                <img src="img/produtos/miniatura12.png">
                 <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
               </figure>
             </a>
           </li>
         </ol>
+        <button type="button">Mostra mais</button>
       </section>
       <section class="painel mais-vendidos">
-        <h2>Novidades</h2>
+        <h2>Mais Vendidos</h2>
         <ol>
           <li>
             <a href="produto.php">
               <figure>
-                <img src="img/produtos/miniatura1.png">
+                <img src="img/produtos/miniatura7.png">
                 <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
               </figure>
             </a>
@@ -103,7 +152,7 @@
           <li>
             <a href="produto.php">
               <figure>
-                <img src="img/produtos/miniatura1.png">
+                <img src="img/produtos/miniatura8.png">
                 <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
               </figure>
             </a>
@@ -111,7 +160,7 @@
           <li>
             <a href="produto.php">
               <figure>
-                <img src="img/produtos/miniatura1.png">
+                <img src="img/produtos/miniatura9.png">
                 <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
               </figure>
             </a>
@@ -119,7 +168,7 @@
           <li>
             <a href="produto.php">
               <figure>
-                <img src="img/produtos/miniatura1.png">
+                <img src="img/produtos/miniatura10.png">
                 <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
               </figure>
             </a>
@@ -127,7 +176,7 @@
           <li>
             <a href="produto.php">
               <figure>
-                <img src="img/produtos/miniatura1.png">
+                <img src="img/produtos/miniatura11.png">
                 <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
               </figure>
             </a>
@@ -135,39 +184,65 @@
           <li>
             <a href="produto.php">
               <figure>
-                <img src="img/produtos/miniatura1.png">
+                <img src="img/produtos/miniatura12.png">
+                <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="produto.php">
+              <figure>
+                <img src="img/produtos/miniatura12.png">
+                <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="produto.php">
+              <figure>
+                <img src="img/produtos/miniatura13.png">
+                <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="produto.php">
+              <figure>
+                <img src="img/produtos/miniatura14.png">
+                <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="produto.php">
+              <figure>
+                <img src="img/produtos/miniatura15.png">
+                <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="produto.php">
+              <figure>
+                <img src="img/produtos/miniatura11.png">
+                <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="produto.php">
+              <figure>
+                <img src="img/produtos/miniatura12.png">
                 <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
               </figure>
             </a>
           </li>
         </ol>
+        <button type="button">Mostra mais</button>
       </section>
   </div>
   <?php include("rodape.php"); ?>
-
-<script type="text/javascript">
-  var banners = ["img/destaque-home.png", "img/destaque-home-2.png"];
-  var bannerAtual = 0;
-
-  function trocaBanner() {
-    bannerAtual = (bannerAtual + 1) % 2;
-    document.querySelector('.destaque img').src = banners[bannerAtual];
-  }
-
-  var timer = setInterval(trocaBanner, 4000);
-  var controle = document.querySelector('.pause');
-
-  controle.onclick = function() {
-    if (controle.className == 'pause') {
-      clearInterval(timer);
-      controle.className = 'play';
-    } else {
-      timer = setInterval(trocaBanner, 4000);
-      controle.className = 'pause';
-    }
-
-    return false;
-  };
-</script>
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/home.js" type="text/javascript"></script>
 </body>
 </html>
