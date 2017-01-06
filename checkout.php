@@ -98,7 +98,7 @@
 
                         <div class="form-group">
                             <label for="cpf">CPF</label>
-                            <input type="text" class="form-control" id="cpf" name="cpf" placeholder="000.000.000-00" required>
+                            <input type="text" class="form-control" id="cpf" name="cpf" placeholder="000.000.000-00" required data-mask="999.999.999-99">
                         </div>
 
                         <div class="checkbox">
@@ -114,14 +114,12 @@
 
                         <div class="form-group">
                             <label for="numero-cartao">Número - CVV</label>
-                            <input type="text" class="form-control" 
-                                id="numero-cartao" name="numero-cartao">
+                            <input type="text" class="form-control" id="numero-cartao" name="numero-cartao" data-mask="9999 9999 9999 9999 - 999">
                         </div>
 
                         <div class="form-group">
                             <label for="bandeira-cartao">Bandeira</label>
-                            <select name="bandeira-cartao" id="bandeira-cartao"
-                                class="form-control">
+                            <select name="bandeira-cartao" id="bandeira-cartao"class="form-control">
                             <option value="master">MasterCard</option>
                             <option value="visa">VISA</option>
                             <option value="amex">American Express</option>
@@ -130,8 +128,7 @@
 
                         <div class="form-group">
                             <label for="validade-cartao">Validade</label>
-                            <input type="month" class="form-control" 
-                                id="validade-cartao" name="validade-cartao">
+                            <input type="month" class="form-control" id="validade-cartao" name="validade-cartao">
                         </div>
                     </fieldset>
                 </div>
@@ -144,6 +141,7 @@
         </div>
     </div>
     <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/inputmask-plugin.js"></script>
     <script src="js/bootstrap.js" type="text/javascript"></script>
     <script src="js/total.js" type="text/javascript"></script>
     <script type="text/javascript">
