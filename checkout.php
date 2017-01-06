@@ -1,17 +1,40 @@
 <!doctype html>
 <html>
 <head>
-    <meta charset="UTF-8">
     <title>Checkout Mirror Fashion</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-flatly.css">
     <style>
+        body { padding-top: 70px; }
+
         .form-control:invalid {
             border: 1px solid #cc0000;
+        }
+
+        .navbar {
+            margin: 0;
         }
     </style>
 </head>
 <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-id">
+                <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.php"><img src="img/logo-rodape.png" alt="Mirror Fashion"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse-id">>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="sobre.php"><span class="glyphicon glyphicon-home"></span> Sobre</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-question-sign"></span> Ajuda</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-list-alt"></span> Perguntas frequentes</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-bullhorn"></span> Entre em contato</a></li>
+            </ul>
+        </div>
+    </nav>
     <div class="jumbotron">
         <div class="container">
             <h1>Ótima escolha!</h1>
@@ -110,7 +133,8 @@
             </form>
         </div>
     </div>
-
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/bootstrap.js" type="text/javascript"></script>
     <script type="text/javascript">
         document.querySelector('input[type=email]').oninvalid = function() {
             // remove mensagens de erro antigas
